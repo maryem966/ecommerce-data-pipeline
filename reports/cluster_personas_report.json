@@ -1,0 +1,62 @@
+{
+  "total_clusters": 4,
+  "total_customers_segmented": 4372,
+  "clusters": {
+    "0": {
+      "persona": "[Champion]",
+      "description": "Clients tres actifs, gros acheteurs et satisfaits. Ce sont les meilleurs ambassadeurs de la marque.",
+      "action": "Fideliser avec un programme VIP, ambassadeurs de marque.",
+      "stats": {
+        "avg_frequency": 6.99,
+        "avg_monetary": 2200.79,
+        "avg_satisfaction": 4.1,
+        "avg_tenure_days": 198.7,
+        "avg_return_ratio": 0.029
+      },
+      "customer_count": 1811,
+      "pct_of_total": 41.4
+    },
+    "1": {
+      "persona": "[Client a Risque]",
+      "description": "Peu actif, faibles achats et insatisfait. Fort risque de churn a court terme.",
+      "action": "Campagne de reactivation urgente, offre promotionnelle ciblee.",
+      "stats": {
+        "avg_frequency": 2.83,
+        "avg_monetary": 867.88,
+        "avg_satisfaction": 2.2,
+        "avg_tenure_days": 81.6,
+        "avg_return_ratio": 0.034
+      },
+      "customer_count": 2447,
+      "pct_of_total": 56.0
+    },
+    "2": {
+      "persona": "[Client Frustre Actif]",
+      "description": "Achete beaucoup mais exprime une insatisfaction. Risque de churn eleve malgre le volume.",
+      "action": "Contacter le service client en priorite, offrir des avantages de fidelite.",
+      "stats": {
+        "avg_frequency": 77.89,
+        "avg_monetary": 75045.31,
+        "avg_satisfaction": 3.3,
+        "avg_tenure_days": 337.1,
+        "avg_return_ratio": 0.046
+      },
+      "customer_count": 27,
+      "pct_of_total": 0.6
+    },
+    "3": {
+      "persona": "[Client a Risque]",
+      "description": "Peu actif, faibles achats et insatisfait. Fort risque de churn a court terme.",
+      "action": "Campagne de reactivation urgente, offre promotionnelle ciblee.",
+      "stats": {
+        "avg_frequency": 5.79,
+        "avg_monetary": 1890.94,
+        "avg_satisfaction": 3.09,
+        "avg_tenure_days": 166.7,
+        "avg_return_ratio": 0.022
+      },
+      "customer_count": 87,
+      "pct_of_total": 2.0
+    }
+  }
+}

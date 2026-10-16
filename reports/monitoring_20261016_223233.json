@@ -1,0 +1,63 @@
+{
+  "run_id": "20261016_223233",
+  "started_at": "2026-10-16T22:32:33.176910",
+  "exported_at": "2026-10-16T22:32:45.337798",
+  "steps": [
+    {
+      "step": "Extract",
+      "duration_s": 0.083,
+      "rows_in": 4372,
+      "rows_out": 4372,
+      "cols_in": null,
+      "cols_out": null,
+      "timestamp": "2026-10-16T22:32:34.969321"
+    },
+    {
+      "step": "Transform",
+      "duration_s": 0.1831,
+      "rows_in": 4372,
+      "rows_out": 4372,
+      "cols_in": null,
+      "cols_out": null,
+      "timestamp": "2026-10-16T22:32:34.969321"
+    },
+    {
+      "step": "Load",
+      "duration_s": 0.2158,
+      "rows_in": 4372,
+      "rows_out": 4372,
+      "cols_in": null,
+      "cols_out": null,
+      "timestamp": "2026-10-16T22:32:34.969321"
+    },
+    {
+      "step": "Clustering",
+      "duration_s": 7.0046,
+      "rows_in": 4372,
+      "rows_out": 4372,
+      "cols_in": null,
+      "cols_out": null,
+      "timestamp": "2026-10-16T22:32:45.336735",
+      "k_optimal": 4,
+      "silhouette": 0.2719
+    }
+  ],
+  "data_quality": {
+    "quality_score": 99.4,
+    "total_rows": 4372,
+    "duplicate_pct": 0.0,
+    "avg_null_pct": 0.61
+  },
+  "cluster_metrics": {
+    "k_optimal": 4,
+    "silhouette_score": 0.2719,
+    "duration_s": 7.0023,
+    "distribution": {
+      "0": 1811,
+      "1": 2447,
+      "2": 27,
+      "3": 87
+    }
+  },
+  "total_duration_s": 7.4865
+}

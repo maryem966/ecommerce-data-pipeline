@@ -7,16 +7,21 @@ venv/
 ENV/
 env/
 
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+reports/*.log
+
 # Jupyter Notebooks
 .ipynb_checkpoints
 
-# ML Models and Data
+# ML Models & Heavy artifacts
 models/*.pkl
 models/*.joblib
-data/processed/
-data/train_test/
-scratch/
-# data/raw/  <-- keep this if data is small, but usually best to ignore if large
 
 # Flask/Environment
 .env
